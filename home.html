@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Covid 19 Update</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://www.zurich.com/en/knowledge/topics/-/media/project/zurich/dotcom/pictograms/covid-19.png">
+</head>
+
+<!-- <body style="background: linear-gradient(to right, #abbaab, #ffffff);"> -->
+  <body style="background: linear-gradient(to right, #616161, #9bc5c3);">
+
+
+  <!-- Nav Bar Section -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://www.mohfw.gov.in/" target="_blank">COVID-19</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+      <div class="navbar-nav" >
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="https://www.who.int/health-topics/coronavirus#tab=tab_3" target="_blank">Symptoms</a>
+        <a class="nav-item nav-link" href="https://www.who.int/health-topics/coronavirus#tab=tab_2" target="_blank">Prevention</a>
+        <a class="nav-item nav-link" href="https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf" target="_blank">Emergency Contact</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- NavBar Section End -->
+
+  <div class="container">
+    <h1 id="h1">Covid 19 Live Data Updates</h1>
+    <h2 id="date"></h2>
+    <h2 id="gh2">Global</h2>
+    <table class="table table-light">
+      <thead>
+        <tr>
+          <!-- <th scope="col">#</th> -->
+          <th scope="col">Total Cases</th>
+          <th scope="col">Total Deaths</th>
+          <th scope="col">Total Recovered</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="data"></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- India Update Section -->
+
+  <div class="container">
+    <h2 id="ih2">India</h2>
+    <table class="table table-secondary">
+      <thead>
+        <tr>
+          <!-- <th scope="col">#</th> -->
+          <th scope="col">Total Cases</th>
+          <th scope="col">Total Deaths</th>
+          <th scope="col">Total Recovered</th>
+          <!-- <th scope="col">Today Cases</th>
+            <th scope="col">Today Deaths</th>
+            <th scope="col">Today Recovered</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="indata"></tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <!-- State Wise Update -->
+  <div class="container">
+    <h2 style="margin-left:40px ; margin-bottom: 20px;font-weight: 500;">State Wise</h2>
+    <table class="table table-light" id="tbval">
+      <thead class="thead-dark" style="position: sticky; top: 0px; opacity: 0.8;">
+        <tr>
+          <!-- <th scope="col">#</th> -->
+          <th scope="col">State Name</th>
+          <th scope="col">Total Cases</th>
+          <th scope="col">Total Deaths</th>
+          <th scope="col">Total Recovered</th>
+          <th scope="col">Active Cases</th>
+          <!-- <th scope="col">Today Deaths</th>
+            <th scope="col">Today Recovered</th> -->
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-secondary" id="s1"></tr>
+        <tr id="s2"></tr>
+        <tr class="table-secondary" id="s3"></tr>
+        <tr id="s4"></tr>
+        <tr class="table-secondary" id="s5"></tr>
+        <tr id="s6"></tr>
+        <tr class="table-secondary" id="s7"></tr>
+        <tr id="s8"></tr>
+        <tr class="table-secondary" id="s9"></tr>
+        <tr class="table-secondary" id="s10"></tr>
+        <tr id="s11"></tr>
+        <tr class="table-secondary" id="s12"></tr>
+        <tr id="s13"></tr>
+        <tr class="table-secondary" id="s14"></tr>
+        <tr id="s15"></tr>
+        <tr class="table-secondary" id="s16"></tr>
+        <tr id="s17"></tr>
+        <tr class="table-secondary" id="s18"></tr>
+        <tr id="s19"></tr>
+        <tr class="table-secondary" id="s20"></tr>
+        <tr id="s21"></tr>
+        <tr class="table-secondary" id="s22"></tr>
+        <tr id="s23"></tr>
+        <tr class="table-secondary" id="s24"></tr>
+        <tr id="s25"></tr>
+        <tr class="table-secondary" id="s26"></tr>
+        <tr id="s27"></tr>
+        <tr class="table-secondary" id="s28"></tr>
+        <tr id="s29"></tr>
+        <tr class="table-secondary" id="s30"></tr>
+        <tr id="s31"></tr>
+        <tr class="table-secondary" id="s32"></tr>
+        <tr id="s33"></tr>
+        <tr class="table-secondary" id="s34"></tr>
+        <tr id="s35"></tr>
+        <tr class="table-secondary" id="s36"></tr>
+        <tr id="s37"></tr>
+        <tr class="table-secondary" id="s38"></tr>
+      </tbody>
+    </table>
+    <input id="bttn" class="btn btn-danger btn-block" type="button" value="Refresh Data" onClick="document.location.reload(true)">
+    <!-- <button id="bttn" class="btn btn-danger btn-block" onclick="refreshdata()">Refresh Data</button> -->
+  </div>
+
+  <!-- Script Section -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="covid.js">
+
+  </script>
+</body>
+
+</html>

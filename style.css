@@ -1,0 +1,75 @@
+*{
+    /* font-family: 'Itim',cursive; */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+td,th{
+    text-align: center;
+}
+
+/* Nav Bar */
+#navbarNavAltMarkup{
+    color: aquamarine;
+    float: right;
+}
+
+
+/* Global Section */
+#h1{
+    text-align: center;
+    margin-top: 50px;
+     margin-bottom: 50px;
+     text-transform: uppercase;
+     /* text-shadow: 1px 2px 3px white; */
+     text-decoration-line: underline;
+     
+}
+#date{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 500px;
+    margin-left: 25%;
+    background-color: black;
+    /* border: 1px solid white; */
+}
+#gh2{
+    margin-left:40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* End Global Section */
+
+/* India Section */
+#ih2{
+    margin-left:40px; 
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* End India Section */
+
+/* Button */
+#bttn{
+    /* margin: auto; */
+    margin: 30px auto;
+    padding: 15px;
+    width: 250px;
+    font-family: 'Itim', cursive;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(226, 186, 126);
+    color: black;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px 5px white;
+}
+#bttn:hover{
+    transition: ease  .3s;
+    background-color: black;
+    color: white;
+}
+
+/* End Button */
