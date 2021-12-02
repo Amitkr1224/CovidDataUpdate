@@ -35,6 +35,10 @@ function timeChange(){
     }
     var tdate = new Date();
     var tday = tdate.getDate();
+    if(tday < 10)
+    {
+        tday = "0" + tday;
+    }
     var month = tdate.getMonth() + 1;
     var year = tdate.getFullYear();
     var dd =  tday + " : " + month + " : " + year +" , "+ hour + ":" + min + ":" + sec +" "+ day_night;
